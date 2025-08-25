@@ -1,0 +1,86 @@
+Mushrooms.csv output:
+============================================================
+DECISION TREE CONSTRUCTION DEMO
+============================================================
+Total samples: 8124
+Training samples: 6499
+Testing samples: 1625
+
+Constructing decision tree using training data...
+
+🌳 Decision tree construction completed using PYTORCH!
+
+📊 OVERALL PERFORMANCE METRICS
+========================================
+Accuracy:             1.0000 (100.00%)
+Precision (weighted): 1.0000
+Recall (weighted):    1.0000
+F1-Score (weighted):  1.0000
+Precision (macro):    1.0000
+Recall (macro):       1.0000
+F1-Score (macro):     1.0000
+
+🌳 TREE COMPLEXITY METRICS
+========================================
+Maximum Depth:        4
+Total Nodes:          29
+Leaf Nodes:           24
+Internal Nodes:       5
+
+Nursery.csv Output:
+============================================================
+DECISION TREE CONSTRUCTION DEMO
+============================================================
+Total samples: 12960
+Training samples: 10368
+Testing samples: 2592
+
+Constructing decision tree using training data...
+
+🌳 Decision tree construction completed using PYTORCH!
+
+📊 OVERALL PERFORMANCE METRICS
+========================================
+Accuracy:             0.9867 (98.67%)
+Precision (weighted): 0.9876
+Recall (weighted):    0.9867
+F1-Score (weighted):  0.9872
+Precision (macro):    0.7604
+Recall (macro):       0.7654
+F1-Score (macro):     0.7628
+
+🌳 TREE COMPLEXITY METRICS
+========================================
+Maximum Depth:        7
+Total Nodes:          952
+Leaf Nodes:           680
+Internal Nodes:       272
+
+tictactoe.csv Output:
+============================================================
+DECISION TREE CONSTRUCTION DEMO
+============================================================
+Total samples: 958
+Training samples: 766
+Testing samples: 192
+
+Constructing decision tree using training data...
+
+🌳 Decision tree construction completed using PYTORCH!
+
+📊 OVERALL PERFORMANCE METRICS
+========================================
+Accuracy:             0.8730 (87.30%)
+Precision (weighted): 0.8741
+Recall (weighted):    0.8730
+F1-Score (weighted):  0.8734
+Precision (macro):    0.8590
+Recall (macro):       0.8638
+F1-Score (macro):     0.8613
+
+🌳 TREE COMPLEXITY METRICS
+========================================
+Maximum Depth:        7
+Total Nodes:          281
+Leaf Nodes:           180
+Internal Nodes:       101
