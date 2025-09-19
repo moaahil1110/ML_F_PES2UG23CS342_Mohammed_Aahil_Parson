@@ -1,0 +1,74 @@
+Batch Size = 256:
+these are the outputs i got for batch-size=256:
+Training Neural Network with your specific configuration...
+Starting training...
+Architecture: 1 → 72 → 32 → 1
+Learning Rate: 0.005
+Max Epochs: 1000, Early Stopping Patience: 10, Batch Size: 32
+--------------------------------------------------
+Epoch  20: Train Loss = 0.000078, Test Loss = 0.000074
+Epoch  40: Train Loss = 0.000042, Test Loss = 0.000041
+Epoch  60: Train Loss = 0.000033, Test Loss = 0.000032
+Epoch  80: Train Loss = 0.000027, Test Loss = 0.000027
+Epoch 100: Train Loss = 0.000024, Test Loss = 0.000024
+Epoch 120: Train Loss = 0.000022, Test Loss = 0.000021
+Epoch 140: Train Loss = 0.000020, Test Loss = 0.000019
+Epoch 160: Train Loss = 0.000018, Test Loss = 0.000017
+Epoch 180: Train Loss = 0.000016, Test Loss = 0.000016
+Epoch 200: Train Loss = 0.000015, Test Loss = 0.000015
+Epoch 220: Train Loss = 0.000014, Test Loss = 0.000014
+Epoch 240: Train Loss = 0.000013, Test Loss = 0.000013
+Epoch 260: Train Loss = 0.000012, Test Loss = 0.000012
+Epoch 280: Train Loss = 0.000011, Test Loss = 0.000012
+Epoch 300: Train Loss = 0.000011, Test Loss = 0.000011
+Epoch 320: Train Loss = 0.000010, Test Loss = 0.000011
+Epoch 340: Train Loss = 0.000010, Test Loss = 0.000010
+Epoch 360: Train Loss = 0.000009, Test Loss = 0.000010
+Epoch 380: Train Loss = 0.000009, Test Loss = 0.000009
+Epoch 400: Train Loss = 0.000009, Test Loss = 0.000009
+Epoch 420: Train Loss = 0.000008, Test Loss = 0.000009
+Epoch 440: Train Loss = 0.000008, Test Loss = 0.000008
+Epoch 460: Train Loss = 0.000008, Test Loss = 0.000008
+Epoch 480: Train Loss = 0.000008, Test Loss = 0.000008
+Epoch 500: Train Loss = 0.000007, Test Loss = 0.000007
+Epoch 520: Train Loss = 0.000007, Test Loss = 0.000007
+Epoch 540: Train Loss = 0.000007, Test Loss = 0.000007
+Epoch 560: Train Loss = 0.000007, Test Loss = 0.000007
+Epoch 580: Train Loss = 0.000007, Test Loss = 0.000007
+Epoch 600: Train Loss = 0.000006, Test Loss = 0.000006
+Epoch 620: Train Loss = 0.000006, Test Loss = 0.000006
+Epoch 640: Train Loss = 0.000006, Test Loss = 0.000006
+Epoch 660: Train Loss = 0.000006, Test Loss = 0.000006
+Epoch 680: Train Loss = 0.000006, Test Loss = 0.000006
+Epoch 700: Train Loss = 0.000006, Test Loss = 0.000006
+Epoch 720: Train Loss = 0.000005, Test Loss = 0.000005
+Epoch 740: Train Loss = 0.000005, Test Loss = 0.000005
+Epoch 760: Train Loss = 0.000005, Test Loss = 0.000005
+Epoch 780: Train Loss = 0.000005, Test Loss = 0.000005
+Epoch 800: Train Loss = 0.000005, Test Loss = 0.000005
+Epoch 820: Train Loss = 0.000005, Test Loss = 0.000005
+Epoch 840: Train Loss = 0.000005, Test Loss = 0.000005
+Epoch 860: Train Loss = 0.000005, Test Loss = 0.000005
+Epoch 880: Train Loss = 0.000005, Test Loss = 0.000005
+Epoch 900: Train Loss = 0.000005, Test Loss = 0.000004
+Epoch 920: Train Loss = 0.000004, Test Loss = 0.000004
+Epoch 940: Train Loss = 0.000004, Test Loss = 0.000004
+Epoch 960: Train Loss = 0.000004, Test Loss = 0.000004
+Epoch 980: Train Loss = 0.000004, Test Loss = 0.000004
+Epoch 1000: Train Loss = 0.000004, Test Loss = 0.000004
+
+============================================================
+PREDICTION RESULTS FOR x = 90.2
+============================================================
+Neural Network Prediction: 2,101,277.06
+Ground Truth (formula):    2,097,167.76
+Absolute Error:            4,109.30
+Relative Error:            0.196%
+
+============================================================
+FINAL PERFORMANCE SUMMARY
+============================================================
+Final Training Loss: 0.000004
+Final Test Loss:     0.000004
+R² Score:           1.0000
+Total Epochs Run:   1000

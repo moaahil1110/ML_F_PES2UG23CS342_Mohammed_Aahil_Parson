@@ -1,0 +1,48 @@
+these are the outputs i got for learning rate = 0.005:
+Training Neural Network with your specific configuration...
+Starting training...
+Architecture: 1 → 72 → 32 → 1
+Learning Rate: 0.005
+Max Epochs: 500, Early Stopping Patience: 10
+--------------------------------------------------
+Epoch  20: Train Loss = 0.845070, Test Loss = 0.829811
+Epoch  40: Train Loss = 0.648446, Test Loss = 0.637375
+Epoch  60: Train Loss = 0.513059, Test Loss = 0.505436
+Epoch  80: Train Loss = 0.418677, Test Loss = 0.412946
+Epoch 100: Train Loss = 0.352876, Test Loss = 0.348780
+Epoch 120: Train Loss = 0.305491, Test Loss = 0.302534
+Epoch 140: Train Loss = 0.272131, Test Loss = 0.269980
+Epoch 160: Train Loss = 0.249048, Test Loss = 0.247460
+Epoch 180: Train Loss = 0.232593, Test Loss = 0.231336
+Epoch 200: Train Loss = 0.220330, Test Loss = 0.219289
+Epoch 220: Train Loss = 0.211025, Test Loss = 0.210102
+Epoch 240: Train Loss = 0.203223, Test Loss = 0.202346
+Epoch 260: Train Loss = 0.196334, Test Loss = 0.195473
+Epoch 280: Train Loss = 0.189961, Test Loss = 0.189095
+Epoch 300: Train Loss = 0.183949, Test Loss = 0.183070
+Epoch 320: Train Loss = 0.178241, Test Loss = 0.177347
+Epoch 340: Train Loss = 0.172805, Test Loss = 0.171896
+Epoch 360: Train Loss = 0.167595, Test Loss = 0.166671
+Epoch 380: Train Loss = 0.162576, Test Loss = 0.161640
+Epoch 400: Train Loss = 0.157721, Test Loss = 0.156777
+Epoch 420: Train Loss = 0.152999, Test Loss = 0.152050
+Epoch 440: Train Loss = 0.148351, Test Loss = 0.147396
+Epoch 460: Train Loss = 0.143680, Test Loss = 0.142723
+Epoch 480: Train Loss = 0.138838, Test Loss = 0.137877
+Epoch 500: Train Loss = 0.133965, Test Loss = 0.133029
+
+============================================================
+PREDICTION RESULTS FOR x = 90.2
+============================================================
+Neural Network Prediction: 1,557,238.34
+Ground Truth (formula):    2,097,167.76
+Absolute Error:            539,929.42
+Relative Error:            25.746%
+
+============================================================
+FINAL PERFORMANCE SUMMARY
+============================================================
+Final Training Loss: 0.133965
+Final Test Loss:     0.133029
+R² Score:           0.8664
+Total Epochs Run:   500
